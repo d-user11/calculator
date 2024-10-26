@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid;
+    background-color: #d0d0d0;
+}
+
+#display {
+    background-color: #ffffff;
+
+    height: 30px;
+    width: 120px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    padding: 0 2px;
+    
+    font-family: "DotGothic16", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    border: 1px solid #000000;
+}
+
+.container {
+    display: flex;
+}
+
+.operation,
+.equal,
+.clear {
+    background-color: #808080;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.clear {
+    background-color: #ff0000;
+}
